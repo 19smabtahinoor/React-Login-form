@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+}
+.form {
+	font-family: 'Ubuntu Condensed';
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(226, 216, 216);
+	color: rgb(21, 15, 54);
+}
+
+h1 {
+	display: block;
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+input {
+	padding: 15px;
+	width: 400px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btn {
+	padding: 12px 38px;
+	background: rgb(114, 139, 250);
+	color: white;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.btn:active {
+	transform: scale(0.9);
+}
